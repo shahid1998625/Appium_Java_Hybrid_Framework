@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>shahid.practice</groupId>
+    <artifactId>Appium_Hybrid_Framework</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>9.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>datadecryptor</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/java/com/QM/jars/DataDecryptor.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>7.18.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.23.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.18.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>7.18.0</version>
+        </dependency>
+        <!-- Apache Commons IO -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.17.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-scratchpad</artifactId>
+            <version>5.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <suiteXmlFiles>
+<!--                        <suiteXmlFile>path/to/your/testng.xml</suiteXmlFile>-->
+                        <suiteXmlFile>D:\Appium_Hybrid_ Framework_Updated\Appium Hybrid Framework\testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <reportsDirectory>D:\Appium_Hybrid_ Framework_Updated\Appium Hybrid Framework\targetoutput\surefire-reports\testng-results.xml</reportsDirectory>
+                    <systemPropertyVariables>
+                        <cucumber.options>--plugin json:targetoutput/cucumber-reports/Cucumber.json</cucumber.options>
+                    </systemPropertyVariables>
+<!--                    <includes>-->
+<!--                        <include>com.QM.PracticeTestCasesHybridApp.PhotosApp_Practice</include>-->
+<!--                        <include>testng.xml</include>-->
+<!--&lt;!&ndash;                        <include>**/*Tests.java</include>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <include>**/*TestCase.java</include>&ndash;&gt;-->
+<!--                    </includes>-->
+<!--                    <excludes>-->
+<!--&lt;!&ndash;                        <exclude>**/AbstractTest*.java</exclude>&ndash;&gt;-->
+<!--                    </excludes>-->
+<!--                    <forkCount>2</forkCount>-->
+<!--                    <reuseForks>true</reuseForks>-->
+<!--                    <parallel>methods</parallel>-->
+<!--                    <threadCount>4</threadCount>-->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

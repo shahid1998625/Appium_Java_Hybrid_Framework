@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-13T18:02:39 IST" name="Hybrid Framework Suite" finished-at="2024-08-13T18:04:32 IST" duration-ms="113276">
+    <groups>
+    </groups>
+    <test started-at="2024-08-13T18:02:39 IST" name="Sample Test" finished-at="2024-08-13T18:04:32 IST" duration-ms="113276">
+      <class name="com.QM.PracticeTestCasesHybridApp.GmailApp_Practice">
+        <test-method signature="test()[pri:0, instance:com.QM.PracticeTestCasesHybridApp.GmailApp_Practice@74235045]" started-at="2024-08-13T18:03:56 IST" name="test" finished-at="2024-08-13T18:04:05 IST" duration-ms="9880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="testGmailmail(java.util.HashMap)[pri:0, instance:com.QM.PracticeTestCasesHybridApp.GmailApp_Practice@74235045]" started-at="2024-08-13T18:04:06 IST" name="testGmailmail" data-provider="getData" finished-at="2024-08-13T18:04:30 IST" duration-ms="24569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ToEmail=testingemail625@gmail.com, EmailText=Hi Shahid, 
+ 
+ I hope this message finds you well. I am writing to formally request leave from July 6th to July 7th, totaling 2 days.  
+ 
+   The reason for this leave is a planned family vacation. I have ensured that all my current tasks are up-to-date, and I am happy to assist in any way to ensure a smooth workflow during my absence. 
+ 
+  In my absence, Alekhya/Kishore has agreed to cover my responsibilities. I will also be available via email or phone for any urgent matters that may require my attention. 
+ 
+  Thank you for considering my request. I appreciate your understanding and support. Please let me know if you need any further information or if there are any forms I need to complete. 
+ 
+ Regards 
+ Shahid, Subject=Applying for sick leave - July 6th & 7th}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGmailmail -->
+      </class> <!-- com.QM.PracticeTestCasesHybridApp.GmailApp_Practice -->
+      <class name="com.QM.PracticeTestCasesHybridApp.TC_02_Practice">
+        <test-method signature="EcomappTest2(java.util.HashMap)[pri:0, instance:com.QM.PracticeTestCasesHybridApp.TC_02_Practice@41d477ed]" started-at="2024-08-13T18:02:39 IST" name="EcomappTest2" data-provider="getData" finished-at="2024-08-13T18:03:42 IST" duration-ms="63253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Shahid, country=Australia, company=Quality Matrix, gender=male, NativeAppContext=NATIVE_APP, WebViewContext=WEBVIEW_com.androidsample.generalstore}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EcomappTest2 -->
+      </class> <!-- com.QM.PracticeTestCasesHybridApp.TC_02_Practice -->
+      <class name="com.QM.PracticeTestCasesHybridApp.PhotosApp_Practice">
+        <test-method signature="testPhotosApp()[pri:0, instance:com.QM.PracticeTestCasesHybridApp.PhotosApp_Practice@765d7657]" started-at="2024-08-13T18:03:43 IST" name="testPhotosApp" finished-at="2024-08-13T18:03:54 IST" duration-ms="11259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhotosApp -->
+      </class> <!-- com.QM.PracticeTestCasesHybridApp.PhotosApp_Practice -->
+    </test> <!-- Sample Test -->
+  </suite> <!-- Hybrid Framework Suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Hybrid Framework Suite" parallel="false">
+
+
+        <listeners>
+<!--            <listener class-name="com.QM.hooks.Hooks"/>-->
+            <listener class-name="com.QM.utils.Listeners"/>
+
+        </listeners>
+    <test name="Sample Test">
+        <classes>
+            <!-- Mention the complete package name along with the class name -->
+            <class name="com.QM.PracticeTestCasesHybridApp.TC_02_Practice"/>
+            <class name="com.QM.PracticeTestCasesHybridApp.PhotosApp_Practice"/>
+            <class name="com.QM.PracticeTestCasesHybridApp.GmailApp_Practice"/>
+            <!--            <class name="com.QM.PracticeTestCasesHybridApp.TC_01_NativeApp_to_WebMobile_Browser_Navigation"/>-->
+        </classes>
+    </test>
+
+</suite>

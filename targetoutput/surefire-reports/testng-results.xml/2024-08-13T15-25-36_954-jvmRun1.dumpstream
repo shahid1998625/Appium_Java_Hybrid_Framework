@@ -1,0 +1,8 @@
+# Created at 2024-08-13T15:26:05.537
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, screenshot {}]
+Capabilities {appium:automationName: UiAutomator2, appium:chromedriverExecutable: D:\Appium_Hybrid_ Framework..., appium:databaseEnabled: false, appium:desired: {automationName: UiAutomator2, chromedriverExecutable: D:\Appium_Hybrid_ Framework..., deviceName: Android Device, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M426B, appium:deviceName: RZCR404KRKY, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: RZCR404KRKY, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.875, appium:platformVersion: 13, appium:statBarHeight: 52, appium:takesScreenshot: true, appium:viewportRect: {height: 1548, left: 0, top: 52, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+
