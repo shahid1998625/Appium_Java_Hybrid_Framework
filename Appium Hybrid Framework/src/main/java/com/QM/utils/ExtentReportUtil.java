@@ -22,7 +22,7 @@ public class ExtentReportUtil extends AndroidDriverManager1 {
         if (extent == null) {
 //            sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")  + "/reports/extent-reports/extent-report" + System.currentTimeMillis() + ".html");
 //            sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")  + "/reports/extent-report-withlogs/extent-report" + System.currentTimeMillis() + ".html");
-            sparkReporter = new ExtentSparkReporter("reports1/extent-report.html");
+            sparkReporter = new ExtentSparkReporter("reports2/extent-report.html");
             sparkReporter.config().setTheme(Theme.STANDARD);
             sparkReporter.config().setDocumentTitle("Extent Practice reports");
             sparkReporter.config().setReportName("Mobile Appium Automation results");
